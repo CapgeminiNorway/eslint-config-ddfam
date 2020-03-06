@@ -2,7 +2,7 @@ module.exports = {
   "extends": [
     "airbnb",
     "prettier",
-    "prettier/react"
+      "prettier/react"
   ],
   "parser": "babel-eslint",
   "parserOptions": {
@@ -15,7 +15,6 @@ module.exports = {
   },
   "env": {
     "browser": true,
-    "node": true,
     "jquery": true,
     "jest": true
   },
@@ -37,15 +36,15 @@ module.exports = {
     "no-unused-vars": [
       1,
       {
-          "ignoreSiblings": true,
-          "argsIgnorePattern": "res|next|^err"
+        "ignoreSiblings": true,
+        "argsIgnorePattern": "res|next|^err"
       }
     ],
     "prefer-const": [
-    "error",
-    {
+      "error",
+      {
         "destructuring": "all",
-    }
+      }
     ],
     "arrow-body-style": [
       2,
@@ -54,13 +53,13 @@ module.exports = {
     "no-unused-expressions": [
       2,
       {
-          "allowTaggedTemplates": true
+        "allowTaggedTemplates": true
       }
     ],
     "no-param-reassign": [
       2,
       {
-          "props": false
+        "props": false
       }
     ],
     "no-console": 0,
@@ -84,33 +83,33 @@ module.exports = {
     "react/jsx-filename-extension": [
       1,
       {
-          "extensions": [
+        "extensions": [
           ".js",
           ".jsx"
-          ]
+        ]
       }
     ],
     "radix": 0,
     "no-shadow": [
       2,
       {
-          "hoist": "all",
-          "allow": [
+        "hoist": "all",
+        "allow": [
           "resolve",
           "reject",
           "done",
           "next",
           "err",
           "error"
-          ]
+        ]
       }
     ],
     "quotes": [
       2,
       "single",
       {
-          "avoidEscape": true,
-          "allowTemplateLiterals": true
+        "avoidEscape": true,
+        "allowTemplateLiterals": true
       }
     ],
     "prettier/prettier": [
