@@ -1,7 +1,7 @@
-Eslint config - DDFAM  
+Eslint config - DDFAM
 ===================  
 
-This is a manual for setting up Eslint and Prettier on a frontend project.
+This is a installation manual for setting up Eslint and Prettier on a frontend project. The project is a "Work in progress" and is currently under review.
 
 # How LEARN & MAKE  
 
@@ -23,7 +23,7 @@ This will install:
 `npm i eslint --save-dev`
 
 #### Set up the rules:
-Create a `.eslintrc` file in the root folder of your project and add the folowing ruleset:
+Create a `.eslintrc` file in the root folder of your project and add the folowing ruleset:<br/>
 [Eslintrc fil](https://github.com/CapgeminiNorway/eslint-config-ddfam/blob/master/.eslintrc "CapgeminiNorway - Eslintrc fil")
 
 
