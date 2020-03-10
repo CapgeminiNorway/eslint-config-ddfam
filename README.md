@@ -1,7 +1,8 @@
 Eslint config - DDFAM
 ===================  
 
-This is a installation manual for setting up Eslint and Prettier on a frontend project. The project is a "Work in progress" and is currently under review.
+This is a installation manual for setting up Eslint and Prettier on a frontend project.<br/>
+The config is currently under review and is a "Work in Progress".
 
 # How LEARN & MAKE  
 
