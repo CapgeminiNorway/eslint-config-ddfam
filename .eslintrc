@@ -30,8 +30,8 @@
             "error",
             "tab"
         ],
-        "no-debugger": 0,
-        "no-alert": 0,
+        "no-debugger": 1,
+        "no-alert": 1,
         "no-await-in-loop": 0,
         "no-return-assign": [
             "error",
@@ -46,7 +46,7 @@
         "no-unused-vars": [
             1,
             {
-                "ignoreSiblings": true,
+                "ignoreRestSiblings": true,
                 "argsIgnorePattern": "res|next|^err"
             }
         ],
@@ -72,7 +72,7 @@
                 "props": false
             }
         ],
-        "no-console": 0,
+        "no-console": 1,
         "import/prefer-default-export": 0,
         "import": 0,
         "func-names": 0,
