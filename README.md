@@ -83,15 +83,15 @@ This will run the `eslint --fix` script every time a commit has been done on onl
 ## Rule explanation:
 #### Eslint rules:
 * [no-use-before-define](https://eslint.org/docs/rules/no-use-before-define "Eslint documentation") 
-  * - Don't use a function before it is defined: Set to warn
+  * Don't use a function before it is defined: Set to warn
 * [indent](https://eslint.org/docs/rules/indent "Eslint documentation") 
-  * - Indent style: Set to tabs
+  * Indent style: Set to tabs
 * [no-debugger](https://eslint.org/docs/rules/no-debugger "Eslint documentation") 
-  * - Don't call debugger: Set to warn
+  * Don't call debugger: Set to warn
 * [no-alert](https://eslint.org/docs/rules/no-alert#top "Eslint documentation") 
-  * - Don't use alert: Set to warn
+  * Don't use alert: Set to warn
 * [no-await-in-loop](https://eslint.org/docs/rules/no-await-in-loop "Eslint documentation") 
-  * - Don't use await in loops: Set to off
+  * Don't use await in loops: Set to off
 * [no-return-assign](https://eslint.org/docs/rules/no-return-assign "Eslint documentation")
   * Disallow Assignment in return - Set to default; Not allowed unless they are enclosed in parentheses.
 * [no-restricted-syntax](https://eslint.org/docs/rules/no-restricted-syntax "Eslint documentation")
