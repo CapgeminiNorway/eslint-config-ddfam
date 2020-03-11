@@ -23,12 +23,12 @@ This will install:
 **PS: If you are not using create-react-app you will need to install Eslint aswell**
 `npm i eslint --save-dev`
 
-#### Set up the rules:
+### Set up the rules:
 Create a `.eslintrc` file in the root folder of your project and add the folowing ruleset:<br/>
 [Eslintrc fil](https://github.com/CapgeminiNorway/eslint-config-ddfam/blob/master/.eslintrc "CapgeminiNorway - Eslintrc fil")
 
 
-#### Add linting scripts:
+### Add linting scripts:
 To lint on command add the following in your `package.json` file:
 ```JSON
 "scripts": {
@@ -37,7 +37,7 @@ To lint on command add the following in your `package.json` file:
 },
 ``` 
 
-#### VSCode settings:
+### VSCode settings:
 To add linting on save with VSCode; install the [ESlint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint "Eslint extension on Marketplace") extension and add the following setting to your `settings.json` file:
 ```JSON
 "editor.formatOnSave": true,
@@ -79,6 +79,60 @@ Setup husky and lint-staged in your `package.json` by adding:
 }
 ```
 This will run the `eslint --fix` script every time a commit has been done on only the staged files. Hopefully everything if fine!
+
+## Rule explanation:
+* **Eslint rules:**
+* [no-use-before-define](https://eslint.org/docs/rules/no-use-before-define "Eslint documentation")
+* [indent](https://eslint.org/docs/rules/indent "Eslint documentation")
+* [no-debugger](https://eslint.org/docs/rules/no-debugger "Eslint documentation")
+* [no-alert](https://eslint.org/docs/rules/no-alert#top "Eslint documentation")
+* [no-await-in-loop](https://eslint.org/docs/rules/no-await-in-loop "Eslint documentation")
+* [no-return-assign](https://eslint.org/docs/rules/no-return-assign "Eslint documentation")
+* [no-restricted-syntax](https://eslint.org/docs/rules/no-restricted-syntax "Eslint documentation")
+* [no-unused-vars](https://eslint.org/docs/rules/no-unused-vars "Eslint documentation")
+* [prefer-const](https://eslint.org/docs/rules/prefer-const "Eslint documentation")
+* [arrow-body-style](https://eslint.org/docs/rules/arrow-body-style "Eslint documentation")
+* [no-unused-expressions](https://eslint.org/docs/rules/no-unused-expressions "Eslint documentation")
+* [no-param-reassign](https://eslint.org/docs/rules/no-param-reassign "Eslint documentation")
+* [no-console](https://eslint.org/docs/rules/no-console "Eslint documentation")
+* [func-names](https://eslint.org/docs/rules/func-names "Eslint documentation")
+* [space-before-function-paren](https://eslint.org/docs/rules/space-before-function-paren "Eslint documentation")
+* [comma-dangle](https://eslint.org/docs/rules/comma-dangle "Eslint documentation")
+* [max-len](https://eslint.org/docs/rules/max-len "Eslint documentation")
+* [no-underscore-dangle](https://eslint.org/docs/rules/no-underscore-dangle "Link to no-underscore-dangle - Eslint documentation")
+* [radix](https://eslint.org/docs/rules/radix "Eslint documentation")
+* [no-shadow](https://eslint.org/docs/rules/no-shadow "Eslint documentation")
+* [quotes]([https](https://eslint.org/docs/rules/quotes) "Eslint documentation")
+* **Import rules:**
+* [import](https "Eslint documentation")
+  * Can't find rule or docs..
+* [import/prefer-default-export](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/prefer-default-export.md "Github documentation")
+* [import/extensions](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md "Github documentation")
+* [consistent-return](https://eslint.org/docs/rules/consistent-return "Link to consistent-return - Eslint documentation")
+* **React rules:**
+* [react/display-name](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/display-name.md "Github documentation")
+* [react/no-array-index-key](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-array-index-key.md "Github documentation")
+* [react/react-in-jsx-scope](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/react-in-jsx-scope.md "Github documentation")
+* [react/prefer-stateless-function](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-stateless-function.md "Github documentation")
+* [react/forbid-prop-types](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-prop-types.md "Github documentation")
+* [react/no-unescaped-entities](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unescaped-entities.md "Github documentation")
+* [react/require-default-props](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/require-default-props.md "Github documentation")
+* [react/jsx-filename-extension](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-filename-extension.md "Github documentation")
+* **React hooks rules:**
+* [react-hooks/rules-of-hooks](https://reactjs.org/docs/hooks-rules.html#eslint-plugin "React hooks documentation")
+  * Checks rules of Hooks
+* [react-hooks/exhaustive-deps](https://reactjs.org/docs/hooks-rules.html#eslint-plugin "React hooks documentation")
+  * Checks effect dependencies
+* **Jsx-a11y rules:**
+* [jsx-a11y/accessible-emoji](https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/accessible-emoji.md "Github documentation")
+* [jsx-a11y/href-no-hash](https://www.npmjs.com/package/eslint-plugin-jsx-a11y "NPM package page")
+  * This rule seems to be deprecated and if therefor turned off. Anchor is valid has replaced this.
+* [jsx-a11y/anchor-is-valid](https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md "Github documentation")
+* **Prettier rules:**
+* [Prettier - trailingComma]([https](https://prettier.io/docs/en/options.html#trailing-commas) "Prettier documentation")
+* [Prettier - singleQuote](https://prettier.io/docs/en/options.html#quotes "Prettier documentation")
+* [Prettier - printWidth](https://prettier.io/docs/en/options.html#print-width "Prettier documentation")
+* [Prettier - useTabs](https://prettier.io/docs/en/options.html#tabs "Prettier documentation")
 
 ## Links:
 [AirBnB - Javascript style guide](https://github.com/airbnb/javascript "Link to AirBnB - Javascript style guide")
