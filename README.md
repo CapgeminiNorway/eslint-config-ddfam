@@ -102,13 +102,12 @@ This will run the `eslint --fix` script every time a commit has been done on onl
 * [no-underscore-dangle](https://eslint.org/docs/rules/no-underscore-dangle "Link to no-underscore-dangle - Eslint documentation")
 * [radix](https://eslint.org/docs/rules/radix "Eslint documentation")
 * [no-shadow](https://eslint.org/docs/rules/no-shadow "Eslint documentation")
-* [quotes]([https](https://eslint.org/docs/rules/quotes) "Eslint documentation")
+* [quotes](https://eslint.org/docs/rules/quotes "Eslint documentation")
+* [consistent-return](https://eslint.org/docs/rules/consistent-return "Link to consistent-return - Eslint documentation")
 * **Import rules:**
-* [import](https "Eslint documentation")
-  * Can't find rule or docs..
+* [import](https://www.npmjs.com/package/eslint-plugin-import "NPM package page")
 * [import/prefer-default-export](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/prefer-default-export.md "Github documentation")
 * [import/extensions](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md "Github documentation")
-* [consistent-return](https://eslint.org/docs/rules/consistent-return "Link to consistent-return - Eslint documentation")
 * **React rules:**
 * [react/display-name](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/display-name.md "Github documentation")
 * [react/no-array-index-key](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-array-index-key.md "Github documentation")
@@ -129,7 +128,7 @@ This will run the `eslint --fix` script every time a commit has been done on onl
   * This rule seems to be deprecated and if therefor turned off. Anchor is valid has replaced this.
 * [jsx-a11y/anchor-is-valid](https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md "Github documentation")
 * **Prettier rules:**
-* [Prettier - trailingComma]([https](https://prettier.io/docs/en/options.html#trailing-commas) "Prettier documentation")
+* [Prettier - trailingComma](https://prettier.io/docs/en/options.html#trailing-commas "Prettier documentation")
 * [Prettier - singleQuote](https://prettier.io/docs/en/options.html#quotes "Prettier documentation")
 * [Prettier - printWidth](https://prettier.io/docs/en/options.html#print-width "Prettier documentation")
 * [Prettier - useTabs](https://prettier.io/docs/en/options.html#tabs "Prettier documentation")
